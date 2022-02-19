@@ -15,6 +15,6 @@ See the guide here: https://wiki.eternalmods.com/books/2-how-to-create-mods/page
 In general, this is new territory so it is likely more issues will be found. Please be kind and plan accordingly.
 
 ## Special Thanks:
-- @Zwip-Zwap Zapony for extensive support and advice re: 3d modeling in general
-- @Ray for assistance with the .lwo model format
-- @beth, @electreh, @Zwip-Zwap Zapony and others for help testing the tool
+- Zwip-Zwap Zapony for extensive support and advice re: 3d modeling in general.
+- Ray for assistance with the .lwo model format.
+- Elizabethany, PowerBall253, Zwip-Zwap Zapony and others for help testing the tool.
