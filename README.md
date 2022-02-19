@@ -21,4 +21,4 @@ In general, this is new territory so it is likely more issues will be found. Ple
 
 ## Source:
 
-Sorry, but I only created this repo to host the download somewhere outside of Discord for now. I'll clean up and publish the source code sometime soon.
+I only created this repo to host the download somewhere outside of Discord for now. I'll clean up and publish the source code sometime soon.
