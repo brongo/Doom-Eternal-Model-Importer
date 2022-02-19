@@ -1,4 +1,4 @@
-# Doom-Eternal-Model-Importer
+# Doom Eternal Model Importer v1.0
 A GUI tool for converting .OBJ format models into the .LWO format used by DOOM Eternal.
 
 This tool is currently for Windows only. Linux support will be added in the near future. 
