@@ -19,6 +19,6 @@ In general, this is new territory so it is likely more issues will be found. Ple
 - Ray for assistance with the .lwo model format.
 - Elizabethany, PowerBall253, Zwip-Zwap Zapony and others for help testing the tool.
 
-## WHERE SOURCE?!
+## Source:
 
 Sorry, but I only created this repo to host the download somewhere outside of Discord for now. I'll clean up and publish the source code sometime soon.
