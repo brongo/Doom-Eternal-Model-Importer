@@ -1,7 +1,10 @@
-# Doom Eternal Model Importer v1.0
+# Doom Eternal Model Importer v1.1
 A GUI tool for converting .OBJ format models into the .LWO format used by DOOM Eternal.
 
 This tool is currently for Windows only. Linux support will be added in the near future. 
+
+## New in version 1.1
+This update fixes a problem with the way vertex normals were calculated, which caused dark-colored marks to appear on some models.
 
 ## Usage
 See the guide here: https://wiki.eternalmods.com/books/2-how-to-create-mods/page/importing-custom-models
