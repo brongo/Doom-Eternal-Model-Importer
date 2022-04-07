@@ -15,10 +15,10 @@ See the guide here: https://wiki.eternalmods.com/books/2-how-to-create-mods/page
 - Models with a glow effect (especially item pickups) have a noticeable lighting issue. This can be minimized by disabling the surface emissive / surface sheen via .decl files. Otherwise, I don't know how to fix this yet.
 
 ## Special Thanks:
-- Zwip-Zwap Zapony for extensive support and advice re: 3d modeling in general.
-- Ray and Scobalula for assistance with the .lwo model format.
-- Elizabethany, PowerBall253, Zwip-Zwap Zapony and others for help testing the tool.
-- PowerBall253 for help with Linux compatibility.
+- [Zwip-Zwap Zapony](https://github.com/ZwipZwapZapony) for extensive support and advice re: 3d modeling in general.
+- [MikeyRay](https://github.com/MikeyRay) and [Scobalula](https://github.com/Scobalula) for assistance with the model format.
+- [Elizabethany](https://github.com/elizabethany), [PowerBall253](https://github.com/PowerBall253), [Zwip-Zwap Zapony](https://github.com/ZwipZwapZapony) and others for help testing the tool.
+- [PowerBall253](https://github.com/PowerBall253) for help with Linux compatibility.
 
 ## License:
 
