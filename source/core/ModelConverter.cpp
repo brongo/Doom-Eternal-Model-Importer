@@ -314,13 +314,13 @@ namespace HAYDEN
 
         // create import and streamdb folders
         fs::path importPath = "imports";
-        
+
         std::string lwoFileNameForImportPath = targetLWO.filename().replace_extension("").string();
         std::string indexStringForImportPath = std::to_string(streamDBIndex);
 
         fs::path thisImportPath = importPath / fs::path(lwoFileNameForImportPath + "_id#" + indexStringForImportPath);
         fs::path streamdbPath =  thisImportPath / fs::path("streamdb");
-        
+
         if (!fs::exists(streamdbPath))
             if (!mkpath(streamdbPath))
                 fprintf(stderr, "Error: Failed to create directories for file: %s \n", streamdbPath.string().c_str());
@@ -411,7 +411,7 @@ namespace HAYDEN
             LWOHeader.MeshData[0].BMLHeaders[1].signature[1] = 77;
             LWOHeader.MeshData[0].BMLHeaders[1].signature[2] = 76;
             LWOHeader.MeshData[0].BMLHeaders[1].signature[3] = 114;
-            
+
             // set signature for 3rd BML header { "B", "M", "L", "r" }
             LWOHeader.MeshData[0].BMLHeaders[2].signature[0] = 66;  
             LWOHeader.MeshData[0].BMLHeaders[2].signature[1] = 77;
@@ -533,7 +533,7 @@ namespace HAYDEN
             {
                 fwrite(&LWOHeader.MeshName[0], 1, LWOHeader.MeshName.length(), fw);
             }
-        
+
             // Write LWO Settings 2
             fwrite(&LWOHeader.LWOSettings2, sizeof(LWO_SETTINGS_2), 1, fw);
 

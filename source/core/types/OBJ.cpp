@@ -9,7 +9,7 @@ namespace HAYDEN
         {
             std::stringstream inputStream;
             inputStream << modelFile.rdbuf();
-            
+
             std::string line;
             std::vector<std::string> lines;
             size_t splitPos = 0;

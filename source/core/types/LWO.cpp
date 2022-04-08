@@ -213,7 +213,7 @@ namespace HAYDEN
     void LWO::Serialize(fs::path modelPath)
     {
         std::string modelPathStr = modelPath.string();
-        
+
         FILE* f = fopen(modelPathStr.c_str(), "rb");
         if (f != NULL)
         {
@@ -257,7 +257,7 @@ namespace HAYDEN
 
                 // Read BMLr data (level-of-detail info for each mesh)
                 MeshData[i].BMLHeaders.resize(bmlCount);
-                
+
                 for (int j = 0; j < bmlCount; j++)
                 {
                     fread(&MeshData[i].BMLHeaders[j], sizeof(LWO_BML_HEADER), 1, f);

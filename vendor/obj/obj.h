@@ -30,13 +30,13 @@ extern "C" {
 /*============================================================================*/
 
 enum {
-	OBJ_KD,
-	OBJ_KA,
-	OBJ_KE,
-	OBJ_KS,
-	OBJ_NS,
-	OBJ_KN,
-	OBJ_PROP_COUNT
+    OBJ_KD,
+    OBJ_KA,
+    OBJ_KE,
+    OBJ_KS,
+    OBJ_NS,
+    OBJ_KN,
+    OBJ_PROP_COUNT
 };
 
 #define OBJ_OPT_CLAMP  1
