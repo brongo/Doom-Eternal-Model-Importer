@@ -30,7 +30,7 @@ class ResourceForm : public QWidget
         std::string _ResourcePath;
         bool _ResourceFileIsLoaded = 0;
         bool _ViewIsFiltered = 0;
-        
+
         int  ShowLoadStatus();
         void DisableGUI();
         void EnableGUI();
